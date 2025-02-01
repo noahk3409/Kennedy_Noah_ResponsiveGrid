@@ -1,0 +1,19 @@
+/* 
+    CSS Guide 
+
+    1.  General Styles (Normalize)
+
+ */
+
+
+ /* 1. ---General Styles--- */
+ 
+ .desktop-only {
+    display: none;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .desktop-only {
+      display: block;
+    }
+  }
